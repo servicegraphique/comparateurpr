@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-27T12:24:30",
+ "generated": "2026-10-27T15:25:02",
  "pages": [
   {
    "slug": "acces-internet-et-telephonie-pro-v2",
    "source": "acces-internet-et-telephonie-pro-v2.html",
    "files": 36,
-   "size_bytes": 2946163,
+   "size_bytes": 2946652,
    "images": 26,
    "fonts": 7,
    "vendor": [
@@ -17,14 +17,14 @@
    ],
    "warnings": [],
    "css_kb": 121,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "acces-internet-et-telephonie-pro",
    "source": "acces-internet-et-telephonie-pro.html",
    "files": 36,
-   "size_bytes": 2953511,
+   "size_bytes": 2954000,
    "images": 26,
    "fonts": 7,
    "vendor": [
@@ -36,14 +36,14 @@
    ],
    "warnings": [],
    "css_kb": 122,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "accueil-2",
    "source": "accueil.html",
    "files": 23,
-   "size_bytes": 2710744,
+   "size_bytes": 2711233,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -55,14 +55,14 @@
    ],
    "warnings": [],
    "css_kb": 86,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "alfaromeo/tonale-remerciement",
    "source": "alfaromeo/tonale-remerciement.html",
    "files": 27,
-   "size_bytes": 2787994,
+   "size_bytes": 2788483,
    "images": 17,
    "fonts": 7,
    "vendor": [
@@ -74,14 +74,14 @@
    ],
    "warnings": [],
    "css_kb": 88,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "alfaromeo/tonale",
    "source": "alfaromeo/tonale.html",
    "files": 43,
-   "size_bytes": 3028241,
+   "size_bytes": 3028730,
    "images": 33,
    "fonts": 7,
    "vendor": [
@@ -93,14 +93,14 @@
    ],
    "warnings": [],
    "css_kb": 97,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "assurance-agriculteur-v2",
    "source": "assurance-agriculteur-v2.html",
    "files": 42,
-   "size_bytes": 2994164,
+   "size_bytes": 2994653,
    "images": 32,
    "fonts": 7,
    "vendor": [
@@ -120,7 +120,7 @@
    "slug": "assurance-commerce",
    "source": "assurance-commerce.html",
    "files": 48,
-   "size_bytes": 3148449,
+   "size_bytes": 3148938,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -140,7 +140,7 @@
    "slug": "assurance-consultant-societe-conseil-v2",
    "source": "assurance-consultant-societe-conseil-v2.html",
    "files": 24,
-   "size_bytes": 2716740,
+   "size_bytes": 2717229,
    "images": 14,
    "fonts": 7,
    "vendor": [
@@ -159,7 +159,7 @@
    "slug": "assurance-consultants-societe-conseil",
    "source": "assurance-consultants-societe-conseil.html",
    "files": 60,
-   "size_bytes": 3365015,
+   "size_bytes": 3365504,
    "images": 51,
    "fonts": 7,
    "vendor": [
@@ -172,14 +172,14 @@
    ],
    "warnings": [],
    "css_kb": 131,
-   "js_kb": 1494,
+   "js_kb": 1495,
    "gfonts": []
   },
   {
    "slug": "assurance-estheticienne-institut-beaute",
    "source": "assurance-estheticienne-institut-beaute.html",
    "files": 55,
-   "size_bytes": 3354623,
+   "size_bytes": 3355112,
    "images": 46,
    "fonts": 7,
    "vendor": [
@@ -199,13 +199,13 @@
    "slug": "assurance-estheticiennes-institut-beaute/index",
    "source": "assurance-estheticiennes-institut-beaute/index.html",
    "files": 31,
-   "size_bytes": 646007,
+   "size_bytes": 646496,
    "images": 16,
    "fonts": 0,
    "vendor": [],
    "warnings": [],
    "css_kb": 19,
-   "js_kb": 70,
+   "js_kb": 71,
    "gfonts": [
     "Poppins"
    ]
@@ -214,7 +214,7 @@
    "slug": "assurance-estheticiennes-instituts-beaute-v1",
    "source": "assurance-estheticiennes-instituts-beaute-v1.html",
    "files": 55,
-   "size_bytes": 3367795,
+   "size_bytes": 3368284,
    "images": 46,
    "fonts": 7,
    "vendor": [
@@ -227,14 +227,14 @@
    ],
    "warnings": [],
    "css_kb": 131,
-   "js_kb": 1494,
+   "js_kb": 1495,
    "gfonts": []
   },
   {
    "slug": "assurance-estheticiennes-instituts-beaute",
    "source": "assurance-estheticiennes-instituts-beaute.html",
    "files": 24,
-   "size_bytes": 2717190,
+   "size_bytes": 2717679,
    "images": 14,
    "fonts": 7,
    "vendor": [
@@ -253,7 +253,7 @@
    "slug": "assurance-iard-v2",
    "source": "assurance-iard-v2.html",
    "files": 38,
-   "size_bytes": 3015436,
+   "size_bytes": 3015925,
    "images": 28,
    "fonts": 7,
    "vendor": [
@@ -273,7 +273,7 @@
    "slug": "assurance-marchandise",
    "source": "assurance-marchandise.html",
    "files": 48,
-   "size_bytes": 3147578,
+   "size_bytes": 3148067,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -293,7 +293,7 @@
    "slug": "assurance-professionnelle-tns-v2",
    "source": "assurance-professionnelle-tns-v2.html",
    "files": 48,
-   "size_bytes": 3148190,
+   "size_bytes": 3148679,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -313,7 +313,7 @@
    "slug": "assurance-test-telephone",
    "source": "assurance-test-telephone.html",
    "files": 30,
-   "size_bytes": 2971242,
+   "size_bytes": 2971731,
    "images": 20,
    "fonts": 7,
    "vendor": [
@@ -325,14 +325,14 @@
    ],
    "warnings": [],
    "css_kb": 112,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "assurance-tns-pro-v2-adw",
    "source": "assurance-tns-pro-v2-adw.html",
    "files": 51,
-   "size_bytes": 3226171,
+   "size_bytes": 3226660,
    "images": 42,
    "fonts": 7,
    "vendor": [
@@ -352,7 +352,7 @@
    "slug": "assurance-tns",
    "source": "assurance-tns.html",
    "files": 39,
-   "size_bytes": 2954745,
+   "size_bytes": 2955234,
    "images": 29,
    "fonts": 7,
    "vendor": [
@@ -372,7 +372,7 @@
    "slug": "assurance/agriculteur",
    "source": "assurance/agriculteur.html",
    "files": 50,
-   "size_bytes": 3170848,
+   "size_bytes": 3171337,
    "images": 41,
    "fonts": 7,
    "vendor": [
@@ -392,7 +392,7 @@
    "slug": "assurance/assurance-professionnelle-iard-cookie",
    "source": "assurance/assurance-professionnelle-iard-cookie.html",
    "files": 49,
-   "size_bytes": 3164292,
+   "size_bytes": 3164781,
    "images": 40,
    "fonts": 7,
    "vendor": [
@@ -405,14 +405,14 @@
    ],
    "warnings": [],
    "css_kb": 125,
-   "js_kb": 1483,
+   "js_kb": 1484,
    "gfonts": []
   },
   {
    "slug": "assurance/assurance-professionnelle-iard-v2",
    "source": "assurance/assurance-professionnelle-iard-v2.html",
    "files": 48,
-   "size_bytes": 3137105,
+   "size_bytes": 3137594,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -432,7 +432,7 @@
    "slug": "assurance/multirisques",
    "source": "assurance/multirisques.html",
    "files": 48,
-   "size_bytes": 3146473,
+   "size_bytes": 3146962,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -452,7 +452,7 @@
    "slug": "assurance/professionnelle-iard",
    "source": "assurance/professionnelle-iard.html",
    "files": 49,
-   "size_bytes": 3154309,
+   "size_bytes": 3154798,
    "images": 40,
    "fonts": 7,
    "vendor": [
@@ -472,7 +472,7 @@
    "slug": "assurance/protection-sociale-collective-v4",
    "source": "assurance/protection-sociale-collective-v4.html",
    "files": 50,
-   "size_bytes": 3172517,
+   "size_bytes": 3173006,
    "images": 40,
    "fonts": 7,
    "vendor": [
@@ -492,7 +492,7 @@
    "slug": "assurance/protection-sociale-collective",
    "source": "assurance/protection-sociale-collective.html",
    "files": 52,
-   "size_bytes": 3204755,
+   "size_bytes": 3205244,
    "images": 43,
    "fonts": 7,
    "vendor": [
@@ -512,7 +512,7 @@
    "slug": "assurance/rc-pro",
    "source": "assurance/rc-pro.html",
    "files": 48,
-   "size_bytes": 3145642,
+   "size_bytes": 3146131,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -532,7 +532,7 @@
    "slug": "assurances-multirisques-v2",
    "source": "assurances-multirisques-v2.html",
    "files": 48,
-   "size_bytes": 3142232,
+   "size_bytes": 3142721,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -552,7 +552,7 @@
    "slug": "assurances-professionnelles",
    "source": "assurances-professionnelles.html",
    "files": 74,
-   "size_bytes": 3665113,
+   "size_bytes": 3665602,
    "images": 64,
    "fonts": 7,
    "vendor": [
@@ -565,14 +565,14 @@
    ],
    "warnings": [],
    "css_kb": 113,
-   "js_kb": 1473,
+   "js_kb": 1474,
    "gfonts": []
   },
   {
    "slug": "automobile",
    "source": "automobile.html",
    "files": 47,
-   "size_bytes": 3223603,
+   "size_bytes": 3224092,
    "images": 37,
    "fonts": 7,
    "vendor": [
@@ -586,14 +586,14 @@
     "script externe non vendorisé (laissé) : https://www.googletagmanager.com/gtag/js?id=AW-11139707353"
    ],
    "css_kb": 121,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ayvens-france",
    "source": "ayvens-france.html",
    "files": 24,
-   "size_bytes": 2751876,
+   "size_bytes": 2752365,
    "images": 14,
    "fonts": 7,
    "vendor": [
@@ -605,14 +605,14 @@
    ],
    "warnings": [],
    "css_kb": 94,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "canal",
    "source": "canal.html",
    "files": 25,
-   "size_bytes": 2748773,
+   "size_bytes": 2749262,
    "images": 15,
    "fonts": 7,
    "vendor": [
@@ -624,14 +624,14 @@
    ],
    "warnings": [],
    "css_kb": 87,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "cartes-carburant",
    "source": "cartes-carburant.html",
    "files": 44,
-   "size_bytes": 3048850,
+   "size_bytes": 3049339,
    "images": 34,
    "fonts": 7,
    "vendor": [
@@ -643,14 +643,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "celebrez-le-noel-des-salaries-avec-kadeos",
    "source": "celebrez-le-noel-des-salaries-avec-kadeos.html",
    "files": 40,
-   "size_bytes": 3159750,
+   "size_bytes": 3160239,
    "images": 29,
    "fonts": 8,
    "vendor": [
@@ -662,14 +662,14 @@
    ],
    "warnings": [],
    "css_kb": 100,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "complementaire-retraite-tns-v2",
    "source": "complementaire-retraite-tns-v2.html",
    "files": 48,
-   "size_bytes": 3147252,
+   "size_bytes": 3147741,
    "images": 38,
    "fonts": 7,
    "vendor": [
@@ -689,7 +689,7 @@
    "slug": "dacia-jogger",
    "source": "dacia-jogger.html",
    "files": 35,
-   "size_bytes": 3737833,
+   "size_bytes": 3738322,
    "images": 23,
    "fonts": 9,
    "vendor": [
@@ -701,14 +701,14 @@
    ],
    "warnings": [],
    "css_kb": 98,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ecomobility",
    "source": "ecomobility.html",
    "files": 43,
-   "size_bytes": 3111752,
+   "size_bytes": 3112241,
    "images": 33,
    "fonts": 7,
    "vendor": [
@@ -720,14 +720,14 @@
    ],
    "warnings": [],
    "css_kb": 105,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "edenred-kadeos",
    "source": "edenred-kadeos.html",
    "files": 36,
-   "size_bytes": 3172929,
+   "size_bytes": 3173418,
    "images": 25,
    "fonts": 8,
    "vendor": [
@@ -739,14 +739,14 @@
    ],
    "warnings": [],
    "css_kb": 99,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "edenred-restaurant-v2",
    "source": "edenred-restaurant-v2.html",
    "files": 37,
-   "size_bytes": 2889504,
+   "size_bytes": 2889993,
    "images": 27,
    "fonts": 7,
    "vendor": [
@@ -758,14 +758,14 @@
    ],
    "warnings": [],
    "css_kb": 108,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "edenred-ticket-restaurant-juillet-v1",
    "source": "edenred-ticket-restaurant-juillet-v1.html",
    "files": 72,
-   "size_bytes": 3634327,
+   "size_bytes": 3634816,
    "images": 61,
    "fonts": 8,
    "vendor": [
@@ -777,14 +777,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "edenred-titre-restaurant-v2",
    "source": "edenred-titre-restaurant-v2.html",
    "files": 37,
-   "size_bytes": 2890651,
+   "size_bytes": 2891140,
    "images": 27,
    "fonts": 7,
    "vendor": [
@@ -796,14 +796,14 @@
    ],
    "warnings": [],
    "css_kb": 109,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "edenred-typ",
    "source": "edenred-typ.html",
    "files": 28,
-   "size_bytes": 2786352,
+   "size_bytes": 2786841,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -815,14 +815,14 @@
    ],
    "warnings": [],
    "css_kb": 89,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "energie-v2",
    "source": "energie-v2.html",
    "files": 36,
-   "size_bytes": 3046972,
+   "size_bytes": 3047461,
    "images": 26,
    "fonts": 7,
    "vendor": [
@@ -842,7 +842,7 @@
    "slug": "energie",
    "source": "energie.html",
    "files": 47,
-   "size_bytes": 3398807,
+   "size_bytes": 3399296,
    "images": 37,
    "fonts": 7,
    "vendor": [
@@ -862,7 +862,7 @@
    "slug": "fiat-pro",
    "source": "fiat-pro.html",
    "files": 36,
-   "size_bytes": 3338701,
+   "size_bytes": 3339190,
    "images": 24,
    "fonts": 9,
    "vendor": [
@@ -881,7 +881,7 @@
    "slug": "form-panneaux-photovoltaiques",
    "source": "form-panneaux-photovoltaiques.html",
    "files": 23,
-   "size_bytes": 2732201,
+   "size_bytes": 2732690,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -893,14 +893,14 @@
    ],
    "warnings": [],
    "css_kb": 99,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "form-vehicules-utilitaires",
    "source": "form-vehicules-utilitaires.html",
    "files": 34,
-   "size_bytes": 2992642,
+   "size_bytes": 2993131,
    "images": 24,
    "fonts": 7,
    "vendor": [
@@ -912,14 +912,14 @@
    ],
    "warnings": [],
    "css_kb": 110,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "formulaire-globale",
    "source": "formulaire-globale.html",
    "files": 41,
-   "size_bytes": 3018401,
+   "size_bytes": 3018890,
    "images": 31,
    "fonts": 7,
    "vendor": [
@@ -931,14 +931,14 @@
    ],
    "warnings": [],
    "css_kb": 109,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "formulaire",
    "source": "formulaire.html",
    "files": 23,
-   "size_bytes": 2709055,
+   "size_bytes": 2709544,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -950,14 +950,14 @@
    ],
    "warnings": [],
    "css_kb": 85,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "gamme-de-rayonnage-actiflip-hd",
    "source": "gamme-de-rayonnage-actiflip-hd.html",
    "files": 28,
-   "size_bytes": 3126783,
+   "size_bytes": 3127272,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -969,14 +969,14 @@
    ],
    "warnings": [],
    "css_kb": 113,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "gamme-de-rayonnage-actiflip-v4",
    "source": "gamme-de-rayonnage-actiflip-v4.html",
    "files": 28,
-   "size_bytes": 3122605,
+   "size_bytes": 3123094,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -988,14 +988,14 @@
    ],
    "warnings": [],
    "css_kb": 112,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "geo",
    "source": "geo.html",
    "files": 23,
-   "size_bytes": 2709320,
+   "size_bytes": 2709809,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1007,14 +1007,14 @@
    ],
    "warnings": [],
    "css_kb": 85,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "geolocalisation-de-flotte",
    "source": "geolocalisation-de-flotte.html",
    "files": 51,
-   "size_bytes": 3210010,
+   "size_bytes": 3210499,
    "images": 41,
    "fonts": 7,
    "vendor": [
@@ -1026,14 +1026,14 @@
    ],
    "warnings": [],
    "css_kb": 106,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "geolocalisation-v2",
    "source": "geolocalisation-v2.html",
    "files": 43,
-   "size_bytes": 3109734,
+   "size_bytes": 3110223,
    "images": 33,
    "fonts": 7,
    "vendor": [
@@ -1045,14 +1045,14 @@
    ],
    "warnings": [],
    "css_kb": 103,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "geolocalisation",
    "source": "geolocalisation.html",
    "files": 43,
-   "size_bytes": 3114018,
+   "size_bytes": 3114507,
    "images": 33,
    "fonts": 7,
    "vendor": [
@@ -1064,14 +1064,14 @@
    ],
    "warnings": [],
    "css_kb": 106,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "hyundai-kona-electric-nouvelle-generation",
    "source": "hyundai-kona-electric-nouvelle-generation.html",
    "files": 32,
-   "size_bytes": 2909842,
+   "size_bytes": 2910331,
    "images": 21,
    "fonts": 8,
    "vendor": [
@@ -1083,14 +1083,14 @@
    ],
    "warnings": [],
    "css_kb": 93,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "hyundai-tucson",
    "source": "hyundai-tucson.html",
    "files": 32,
-   "size_bytes": 2909982,
+   "size_bytes": 2910471,
    "images": 21,
    "fonts": 8,
    "vendor": [
@@ -1102,14 +1102,14 @@
    ],
    "warnings": [],
    "css_kb": 93,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "accueil",
    "source": "index.html",
    "files": 23,
-   "size_bytes": 2709490,
+   "size_bytes": 2709979,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1121,14 +1121,14 @@
    ],
    "warnings": [],
    "css_kb": 85,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "intuis",
    "source": "intuis.html",
    "files": 28,
-   "size_bytes": 2929653,
+   "size_bytes": 2930142,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -1140,14 +1140,14 @@
    ],
    "warnings": [],
    "css_kb": 99,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "lexus-lbx",
    "source": "lexus-lbx.html",
    "files": 42,
-   "size_bytes": 3418056,
+   "size_bytes": 3418545,
    "images": 28,
    "fonts": 11,
    "vendor": [
@@ -1159,14 +1159,14 @@
    ],
    "warnings": [],
    "css_kb": 96,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "lexus/lbx",
    "source": "lexus/lbx.html",
    "files": 29,
-   "size_bytes": 2841729,
+   "size_bytes": 2842218,
    "images": 17,
    "fonts": 9,
    "vendor": [
@@ -1178,14 +1178,14 @@
    ],
    "warnings": [],
    "css_kb": 93,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mentions-legales",
    "source": "mentions-legales.html",
    "files": 23,
-   "size_bytes": 2712371,
+   "size_bytes": 2712860,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1197,14 +1197,14 @@
    ],
    "warnings": [],
    "css_kb": 86,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mercedes-benz/mercedes-benz-evito",
    "source": "mercedes-benz/mercedes-benz-evito.html",
    "files": 26,
-   "size_bytes": 2875724,
+   "size_bytes": 2876213,
    "images": 14,
    "fonts": 9,
    "vendor": [
@@ -1216,14 +1216,14 @@
    ],
    "warnings": [],
    "css_kb": 91,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mercedes-benz/nouvel-ecitan-fourgon",
    "source": "mercedes-benz/nouvel-ecitan-fourgon.html",
    "files": 51,
-   "size_bytes": 3445882,
+   "size_bytes": 3446371,
    "images": 39,
    "fonts": 9,
    "vendor": [
@@ -1235,14 +1235,14 @@
    ],
    "warnings": [],
    "css_kb": 99,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mercedes-benz/sprinter",
    "source": "mercedes-benz/sprinter.html",
    "files": 26,
-   "size_bytes": 2875789,
+   "size_bytes": 2876278,
    "images": 14,
    "fonts": 9,
    "vendor": [
@@ -1254,14 +1254,14 @@
    ],
    "warnings": [],
    "css_kb": 91,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mercedes-vous-remercie",
    "source": "mercedes-vous-remercie.html",
    "files": 27,
-   "size_bytes": 2896203,
+   "size_bytes": 2896692,
    "images": 15,
    "fonts": 9,
    "vendor": [
@@ -1273,14 +1273,14 @@
    ],
    "warnings": [],
    "css_kb": 90,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mitsubishi-fuso-remerciement",
    "source": "mitsubishi-fuso-remerciement.html",
    "files": 34,
-   "size_bytes": 3042001,
+   "size_bytes": 3042490,
    "images": 23,
    "fonts": 8,
    "vendor": [
@@ -1292,14 +1292,14 @@
    ],
    "warnings": [],
    "css_kb": 90,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "mitsubishi-fuso",
    "source": "mitsubishi-fuso.html",
    "files": 53,
-   "size_bytes": 3325806,
+   "size_bytes": 3326295,
    "images": 41,
    "fonts": 9,
    "vendor": [
@@ -1311,14 +1311,14 @@
    ],
    "warnings": [],
    "css_kb": 99,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "nettoyage-locaux-professionnels",
    "source": "nettoyage-locaux-professionnels.html",
    "files": 28,
-   "size_bytes": 2797558,
+   "size_bytes": 2798047,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -1330,14 +1330,14 @@
    ],
    "warnings": [],
    "css_kb": 86,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "nicolas/ayvens",
    "source": "nicolas/ayvens.html",
    "files": 23,
-   "size_bytes": 2709043,
+   "size_bytes": 2709532,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1349,14 +1349,14 @@
    ],
    "warnings": [],
    "css_kb": 85,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "nicolas/form-test",
    "source": "nicolas/form-test.html",
    "files": 29,
-   "size_bytes": 2733277,
+   "size_bytes": 2733766,
    "images": 19,
    "fonts": 7,
    "vendor": [
@@ -1371,14 +1371,14 @@
     "script externe non vendorisé (laissé) : https://smartarget.online/loader.js?type=int&u=f8331739c37237f9d96deac0438aa7c5f75cd897&source=webflow_popup_forms"
    ],
    "css_kb": 87,
-   "js_kb": 1473,
+   "js_kb": 1474,
    "gfonts": []
   },
   {
    "slug": "nicolas/formly",
    "source": "nicolas/formly.html",
    "files": 23,
-   "size_bytes": 2749315,
+   "size_bytes": 2749804,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1390,14 +1390,14 @@
    ],
    "warnings": [],
    "css_kb": 110,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "nissan-ariya",
    "source": "nissan-ariya.html",
    "files": 37,
-   "size_bytes": 3110207,
+   "size_bytes": 3110696,
    "images": 25,
    "fonts": 9,
    "vendor": [
@@ -1409,14 +1409,14 @@
    ],
    "warnings": [],
    "css_kb": 96,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "nissan-juke",
    "source": "nissan-juke.html",
    "files": 33,
-   "size_bytes": 2911261,
+   "size_bytes": 2911750,
    "images": 23,
    "fonts": 7,
    "vendor": [
@@ -1428,14 +1428,14 @@
    ],
    "warnings": [],
    "css_kb": 101,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "panneaux-photovoltaiques-energie-solaire",
    "source": "panneaux-photovoltaiques-energie-solaire.html",
    "files": 44,
-   "size_bytes": 3242990,
+   "size_bytes": 3243479,
    "images": 34,
    "fonts": 7,
    "vendor": [
@@ -1455,7 +1455,7 @@
    "slug": "panneaux-photovoltaiques/panneaux-photovoltaique-valider",
    "source": "panneaux-photovoltaiques/panneaux-photovoltaique-valider.html",
    "files": 28,
-   "size_bytes": 2825455,
+   "size_bytes": 2825944,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -1467,14 +1467,14 @@
    ],
    "warnings": [],
    "css_kb": 88,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "paritel-typ",
    "source": "paritel-typ.html",
    "files": 27,
-   "size_bytes": 2775339,
+   "size_bytes": 2775828,
    "images": 17,
    "fonts": 7,
    "vendor": [
@@ -1493,7 +1493,7 @@
    "slug": "paritel-vous-rembourse-v2",
    "source": "paritel-vous-rembourse-v2.html",
    "files": 39,
-   "size_bytes": 3117359,
+   "size_bytes": 3117848,
    "images": 26,
    "fonts": 10,
    "vendor": [
@@ -1505,14 +1505,14 @@
    ],
    "warnings": [],
    "css_kb": 109,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "paritel-vous-rembourse",
    "source": "paritel-vous-rembourse.html",
    "files": 39,
-   "size_bytes": 3109137,
+   "size_bytes": 3109626,
    "images": 26,
    "fonts": 10,
    "vendor": [
@@ -1524,14 +1524,14 @@
    ],
    "warnings": [],
    "css_kb": 101,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "paritel",
    "source": "paritel.html",
    "files": 33,
-   "size_bytes": 2925305,
+   "size_bytes": 2925794,
    "images": 22,
    "fonts": 8,
    "vendor": [
@@ -1543,14 +1543,14 @@
    ],
    "warnings": [],
    "css_kb": 96,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "politique-de-confidentialite-donnees-personnelles",
    "source": "politique-de-confidentialite-donnees-personnelles.html",
    "files": 23,
-   "size_bytes": 2731979,
+   "size_bytes": 2732468,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1562,14 +1562,14 @@
    ],
    "warnings": [],
    "css_kb": 86,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "primagaz-obtenez-votre-gaz-propane-a-prix-fixe",
    "source": "primagaz-obtenez-votre-gaz-propane-a-prix-fixe.html",
    "files": 25,
-   "size_bytes": 2777845,
+   "size_bytes": 2778334,
    "images": 15,
    "fonts": 7,
    "vendor": [
@@ -1581,14 +1581,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "primagaz-v2",
    "source": "primagaz-v2.html",
    "files": 30,
-   "size_bytes": 3011949,
+   "size_bytes": 3012438,
    "images": 17,
    "fonts": 10,
    "vendor": [
@@ -1600,14 +1600,14 @@
    ],
    "warnings": [],
    "css_kb": 100,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "primagaz",
    "source": "primagaz.html",
    "files": 30,
-   "size_bytes": 3003431,
+   "size_bytes": 3003920,
    "images": 17,
    "fonts": 10,
    "vendor": [
@@ -1619,14 +1619,14 @@
    ],
    "warnings": [],
    "css_kb": 94,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "radius-remerciement",
    "source": "radius-remerciement.html",
    "files": 29,
-   "size_bytes": 5122930,
+   "size_bytes": 5123419,
    "images": 19,
    "fonts": 7,
    "vendor": [
@@ -1638,14 +1638,14 @@
    ],
    "warnings": [],
    "css_kb": 89,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "radius-telematics-typ",
    "source": "radius-telematics-typ.html",
    "files": 31,
-   "size_bytes": 2837058,
+   "size_bytes": 2837547,
    "images": 21,
    "fonts": 7,
    "vendor": [
@@ -1657,14 +1657,14 @@
    ],
    "warnings": [],
    "css_kb": 89,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "rc-pro-consultant-conseil-adw",
    "source": "rc-pro-consultant-conseil-adw.html",
    "files": 38,
-   "size_bytes": 3430189,
+   "size_bytes": 3430678,
    "images": 22,
    "fonts": 7,
    "vendor": [
@@ -1687,7 +1687,7 @@
    "slug": "remerciement-carte-cadeau",
    "source": "remerciement-carte-cadeau.html",
    "files": 31,
-   "size_bytes": 2861171,
+   "size_bytes": 2861660,
    "images": 21,
    "fonts": 7,
    "vendor": [
@@ -1706,7 +1706,7 @@
    "slug": "remerciement-panneaux-solaire",
    "source": "remerciement-panneaux-solaire.html",
    "files": 35,
-   "size_bytes": 2988533,
+   "size_bytes": 2989022,
    "images": 25,
    "fonts": 7,
    "vendor": [
@@ -1725,7 +1725,7 @@
    "slug": "remerciement-ticket-restaurant-v2",
    "source": "remerciement-ticket-restaurant-v2.html",
    "files": 31,
-   "size_bytes": 2861065,
+   "size_bytes": 2861554,
    "images": 21,
    "fonts": 7,
    "vendor": [
@@ -1744,7 +1744,7 @@
    "slug": "remerciement-ticket-restaurant",
    "source": "remerciement-ticket-restaurant.html",
    "files": 31,
-   "size_bytes": 2860477,
+   "size_bytes": 2860966,
    "images": 21,
    "fonts": 7,
    "vendor": [
@@ -1763,7 +1763,7 @@
    "slug": "remerciements-panneaux-solaires",
    "source": "remerciements-panneaux-solaires.html",
    "files": 35,
-   "size_bytes": 2982808,
+   "size_bytes": 2983297,
    "images": 25,
    "fonts": 7,
    "vendor": [
@@ -1782,7 +1782,7 @@
    "slug": "renault-capture",
    "source": "renault-capture.html",
    "files": 30,
-   "size_bytes": 3746233,
+   "size_bytes": 3746722,
    "images": 17,
    "fonts": 10,
    "vendor": [
@@ -1794,14 +1794,14 @@
    ],
    "warnings": [],
    "css_kb": 90,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "sage-gestion-de-la-paie-hd-v4",
    "source": "sage-gestion-de-la-paie-hd-v4.html",
    "files": 30,
-   "size_bytes": 2732526,
+   "size_bytes": 2733015,
    "images": 20,
    "fonts": 7,
    "vendor": [
@@ -1813,14 +1813,14 @@
    ],
    "warnings": [],
    "css_kb": 89,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "sage-gestion-de-la-paie-hd",
    "source": "sage-gestion-de-la-paie-hd.html",
    "files": 30,
-   "size_bytes": 2733248,
+   "size_bytes": 2733737,
    "images": 20,
    "fonts": 7,
    "vendor": [
@@ -1832,14 +1832,14 @@
    ],
    "warnings": [],
    "css_kb": 90,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "sauvie-defibrillateurs-en-entreprise",
    "source": "sauvie-defibrillateurs-en-entreprise.html",
    "files": 38,
-   "size_bytes": 2949088,
+   "size_bytes": 2949577,
    "images": 28,
    "fonts": 7,
    "vendor": [
@@ -1851,14 +1851,14 @@
    ],
    "warnings": [],
    "css_kb": 92,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "securite-pro-v2",
    "source": "securite-pro-v2.html",
    "files": 28,
-   "size_bytes": 2800483,
+   "size_bytes": 2800972,
    "images": 18,
    "fonts": 7,
    "vendor": [
@@ -1870,14 +1870,14 @@
    ],
    "warnings": [],
    "css_kb": 104,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "securite-professionnels",
    "source": "securite-professionnels.html",
    "files": 72,
-   "size_bytes": 3564623,
+   "size_bytes": 3565112,
    "images": 62,
    "fonts": 7,
    "vendor": [
@@ -1897,7 +1897,7 @@
    "slug": "solutions-cles",
    "source": "solutions-cles.html",
    "files": 37,
-   "size_bytes": 2972682,
+   "size_bytes": 2973171,
    "images": 27,
    "fonts": 7,
    "vendor": [
@@ -1909,14 +1909,14 @@
    ],
    "warnings": [],
    "css_kb": 92,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "solutions-industrielles-cles-en-main",
    "source": "solutions-industrielles-cles-en-main.html",
    "files": 23,
-   "size_bytes": 2709339,
+   "size_bytes": 2709828,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -1928,14 +1928,14 @@
    ],
    "warnings": [],
    "css_kb": 85,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "still-manutention",
    "source": "still-manutention.html",
    "files": 45,
-   "size_bytes": 3045900,
+   "size_bytes": 3046389,
    "images": 35,
    "fonts": 7,
    "vendor": [
@@ -1947,14 +1947,14 @@
    ],
    "warnings": [],
    "css_kb": 105,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "suivi-de-vehicules",
    "source": "suivi-de-vehicules.html",
    "files": 42,
-   "size_bytes": 3047059,
+   "size_bytes": 3047548,
    "images": 32,
    "fonts": 7,
    "vendor": [
@@ -1966,14 +1966,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "temlpate-webflow/comparateur-2",
    "source": "temlpate-webflow/comparateur-2.html",
    "files": 31,
-   "size_bytes": 2891988,
+   "size_bytes": 2892477,
    "images": 21,
    "fonts": 7,
    "vendor": [
@@ -1985,14 +1985,14 @@
    ],
    "warnings": [],
    "css_kb": 108,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "temlpate-webflow/comparateur-3",
    "source": "temlpate-webflow/comparateur-3.html",
    "files": 47,
-   "size_bytes": 3068640,
+   "size_bytes": 3069129,
    "images": 37,
    "fonts": 7,
    "vendor": [
@@ -2004,14 +2004,14 @@
    ],
    "warnings": [],
    "css_kb": 93,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "temlpate-webflow/comparateur-4",
    "source": "temlpate-webflow/comparateur-4.html",
    "files": 34,
-   "size_bytes": 2899787,
+   "size_bytes": 2900276,
    "images": 24,
    "fonts": 7,
    "vendor": [
@@ -2023,14 +2023,14 @@
    ],
    "warnings": [],
    "css_kb": 95,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "template-2",
    "source": "template-2.html",
    "files": 54,
-   "size_bytes": 3295315,
+   "size_bytes": 3295804,
    "images": 44,
    "fonts": 7,
    "vendor": [
@@ -2042,14 +2042,14 @@
    ],
    "warnings": [],
    "css_kb": 116,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ticket-restaurant-alt",
    "source": "ticket-restaurant-.html",
    "files": 72,
-   "size_bytes": 3634100,
+   "size_bytes": 3634589,
    "images": 61,
    "fonts": 8,
    "vendor": [
@@ -2061,14 +2061,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ticket-restaurant-septembre-btp",
    "source": "ticket-restaurant-septembre-btp.html",
    "files": 71,
-   "size_bytes": 3593745,
+   "size_bytes": 3594234,
    "images": 60,
    "fonts": 8,
    "vendor": [
@@ -2080,14 +2080,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ticket-restaurant-septembre",
    "source": "ticket-restaurant-septembre.html",
    "files": 72,
-   "size_bytes": 3634516,
+   "size_bytes": 3635005,
    "images": 61,
    "fonts": 8,
    "vendor": [
@@ -2099,14 +2099,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ticket-restaurant-v2",
    "source": "ticket-restaurant-v2.html",
    "files": 80,
-   "size_bytes": 3878692,
+   "size_bytes": 3879181,
    "images": 69,
    "fonts": 8,
    "vendor": [
@@ -2118,14 +2118,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "ticket-restaurant",
    "source": "ticket-restaurant.html",
    "files": 71,
-   "size_bytes": 3623368,
+   "size_bytes": 3623857,
    "images": 60,
    "fonts": 8,
    "vendor": [
@@ -2137,14 +2137,14 @@
    ],
    "warnings": [],
    "css_kb": 102,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "tns-prevoyance-v2-adw-test",
    "source": "tns-prevoyance-v2-adw-test.html",
    "files": 51,
-   "size_bytes": 3247185,
+   "size_bytes": 3247674,
    "images": 41,
    "fonts": 7,
    "vendor": [
@@ -2164,7 +2164,7 @@
    "slug": "tns-prevoyance-v2",
    "source": "tns-prevoyance-v2.html",
    "files": 51,
-   "size_bytes": 3249574,
+   "size_bytes": 3250063,
    "images": 41,
    "fonts": 7,
    "vendor": [
@@ -2184,7 +2184,7 @@
    "slug": "too-good-to-go",
    "source": "too-good-to-go.html",
    "files": 34,
-   "size_bytes": 2909268,
+   "size_bytes": 2909757,
    "images": 24,
    "fonts": 7,
    "vendor": [
@@ -2196,14 +2196,14 @@
    ],
    "warnings": [],
    "css_kb": 95,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "toyota-gamme-hybride",
    "source": "toyota-gamme-hybride.html",
    "files": 33,
-   "size_bytes": 3006616,
+   "size_bytes": 3007105,
    "images": 22,
    "fonts": 8,
    "vendor": [
@@ -2215,14 +2215,14 @@
    ],
    "warnings": [],
    "css_kb": 93,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-categ",
    "source": "typ-categ.html",
    "files": 89,
-   "size_bytes": 3779809,
+   "size_bytes": 3780417,
    "images": 79,
    "fonts": 7,
    "vendor": [
@@ -2232,16 +2232,18 @@
     "multi-step.js",
     "inputmask.min.js"
    ],
-   "warnings": [],
+   "warnings": [
+    "asset gzip décompressé -> placeholder.60f9b1840c.svg"
+   ],
    "css_kb": 99,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-categories",
    "source": "typ-categories.html",
    "files": 38,
-   "size_bytes": 3336689,
+   "size_bytes": 3337178,
    "images": 28,
    "fonts": 7,
    "vendor": [
@@ -2260,7 +2262,7 @@
    "slug": "typ-energie",
    "source": "typ-energie.html",
    "files": 46,
-   "size_bytes": 3053602,
+   "size_bytes": 3054091,
    "images": 36,
    "fonts": 7,
    "vendor": [
@@ -2272,14 +2274,14 @@
    ],
    "warnings": [],
    "css_kb": 103,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/caisses-thank-you-page",
    "source": "typ-formulaires/caisses-thank-you-page.html",
    "files": 40,
-   "size_bytes": 2962632,
+   "size_bytes": 2963121,
    "images": 30,
    "fonts": 7,
    "vendor": [
@@ -2298,7 +2300,7 @@
    "slug": "typ-formulaires/energie-thank-you-page",
    "source": "typ-formulaires/energie-thank-you-page.html",
    "files": 24,
-   "size_bytes": 2745814,
+   "size_bytes": 2746303,
    "images": 14,
    "fonts": 7,
    "vendor": [
@@ -2317,7 +2319,7 @@
    "slug": "typ-formulaires/form-typ-vehicules",
    "source": "typ-formulaires/form-typ-vehicules.html",
    "files": 34,
-   "size_bytes": 2999767,
+   "size_bytes": 3000256,
    "images": 24,
    "fonts": 7,
    "vendor": [
@@ -2329,14 +2331,14 @@
    ],
    "warnings": [],
    "css_kb": 114,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/panneaux-photovoltaiques",
    "source": "typ-formulaires/panneaux-photovoltaiques.html",
    "files": 23,
-   "size_bytes": 2732812,
+   "size_bytes": 2733301,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -2348,14 +2350,14 @@
    ],
    "warnings": [],
    "css_kb": 100,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/panneaux-thank-you-page",
    "source": "typ-formulaires/panneaux-thank-you-page.html",
    "files": 24,
-   "size_bytes": 2742489,
+   "size_bytes": 2742978,
    "images": 14,
    "fonts": 7,
    "vendor": [
@@ -2374,7 +2376,7 @@
    "slug": "typ-formulaires/securite-thank-you-page",
    "source": "typ-formulaires/securite-thank-you-page.html",
    "files": 44,
-   "size_bytes": 3018799,
+   "size_bytes": 3019288,
    "images": 35,
    "fonts": 7,
    "vendor": [
@@ -2393,7 +2395,7 @@
    "slug": "typ-formulaires/typ-caisses-enregistreuse",
    "source": "typ-formulaires/typ-caisses-enregistreuse.html",
    "files": 39,
-   "size_bytes": 2964475,
+   "size_bytes": 2964964,
    "images": 29,
    "fonts": 7,
    "vendor": [
@@ -2405,14 +2407,14 @@
    ],
    "warnings": [],
    "css_kb": 101,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/typ-energie-form",
    "source": "typ-formulaires/typ-energie-form.html",
    "files": 23,
-   "size_bytes": 2747185,
+   "size_bytes": 2747674,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -2424,14 +2426,14 @@
    ],
    "warnings": [],
    "css_kb": 106,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/typ-log-entreprise",
    "source": "typ-formulaires/typ-log-entreprise.html",
    "files": 24,
-   "size_bytes": 2714812,
+   "size_bytes": 2715301,
    "images": 14,
    "fonts": 7,
    "vendor": [
@@ -2450,7 +2452,7 @@
    "slug": "typ-formulaires/typ-panneaux-form",
    "source": "typ-formulaires/typ-panneaux-form.html",
    "files": 23,
-   "size_bytes": 2743238,
+   "size_bytes": 2743727,
    "images": 13,
    "fonts": 7,
    "vendor": [
@@ -2462,14 +2464,14 @@
    ],
    "warnings": [],
    "css_kb": 105,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/typ-secu-form",
    "source": "typ-formulaires/typ-secu-form.html",
    "files": 44,
-   "size_bytes": 3036337,
+   "size_bytes": 3036826,
    "images": 35,
    "fonts": 7,
    "vendor": [
@@ -2481,14 +2483,14 @@
    ],
    "warnings": [],
    "css_kb": 118,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "typ-formulaires/vehicules-thank-you-page",
    "source": "typ-formulaires/vehicules-thank-you-page.html",
    "files": 35,
-   "size_bytes": 2996866,
+   "size_bytes": 2997355,
    "images": 25,
    "fonts": 7,
    "vendor": [
@@ -2507,7 +2509,7 @@
    "slug": "typ-ticket-restaurant",
    "source": "typ-ticket-restaurant.html",
    "files": 44,
-   "size_bytes": 3040253,
+   "size_bytes": 3040742,
    "images": 34,
    "fonts": 7,
    "vendor": [
@@ -2519,14 +2521,14 @@
    ],
    "warnings": [],
    "css_kb": 108,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "une-rentree-sous-le-signe-du-pouvoir-d-achat",
    "source": "une-rentree-sous-le-signe-du-pouvoir-d-achat.html",
    "files": 37,
-   "size_bytes": 3135121,
+   "size_bytes": 3135610,
    "images": 26,
    "fonts": 8,
    "vendor": [
@@ -2538,14 +2540,14 @@
    ],
    "warnings": [],
    "css_kb": 100,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "vehicules-de-societe-hd",
    "source": "vehicules-de-societe-hd.html",
    "files": 46,
-   "size_bytes": 3167323,
+   "size_bytes": 3167812,
    "images": 36,
    "fonts": 7,
    "vendor": [
@@ -2565,7 +2567,7 @@
    "slug": "vehicules-professionnel-v2",
    "source": "vehicules-professionnel-v2.html",
    "files": 50,
-   "size_bytes": 3246129,
+   "size_bytes": 3246618,
    "images": 40,
    "fonts": 7,
    "vendor": [
@@ -2585,7 +2587,7 @@
    "slug": "voiture/nouveau-range-rover",
    "source": "voiture/nouveau-range-rover.html",
    "files": 41,
-   "size_bytes": 3408608,
+   "size_bytes": 3409097,
    "images": 29,
    "fonts": 9,
    "vendor": [
@@ -2604,7 +2606,7 @@
    "slug": "voiture/range-rover",
    "source": "voiture/range-rover.html",
    "files": 29,
-   "size_bytes": 3195374,
+   "size_bytes": 3195863,
    "images": 17,
    "fonts": 9,
    "vendor": [
@@ -2623,7 +2625,7 @@
    "slug": "volvo",
    "source": "volvo.html",
    "files": 38,
-   "size_bytes": 3754655,
+   "size_bytes": 3755144,
    "images": 17,
    "fonts": 18,
    "vendor": [
@@ -2635,14 +2637,14 @@
    ],
    "warnings": [],
    "css_kb": 92,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   },
   {
    "slug": "webflow/template-1",
    "source": "webflow/template-1.html",
    "files": 38,
-   "size_bytes": 3091614,
+   "size_bytes": 3092103,
    "images": 28,
    "fonts": 7,
    "vendor": [
@@ -2654,7 +2656,7 @@
    ],
    "warnings": [],
    "css_kb": 93,
-   "js_kb": 1472,
+   "js_kb": 1473,
    "gfonts": []
   }
  ],

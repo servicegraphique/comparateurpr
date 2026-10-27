@@ -142,6 +142,12 @@
    * ------------------------------------------------------------------ */
   function visible(el) {
     if (!el || !el.getClientRects().length) return false;
+    // un champ conditionnel non révélé (sous-conteneur display:none ou de
+    // taille nulle) ne doit jamais être validé : seuls les champs réellement
+    // affichés à l'utilisateur sont pris en compte.
+    var rect = el.getBoundingClientRect();
+    if (rect.width === 0 || rect.height === 0) return false;
+    if (el.offsetParent === null && window.getComputedStyle(el).position !== 'fixed') return false;
     var n = el;
     while (n && n !== document.body) {
       var s = window.getComputedStyle(n);
@@ -201,16 +207,12 @@
   }
 
   function initMultiStep() {
-    document.addEventListener('click', function (e) {
-      var btn = e.target.closest && e.target.closest('[data-form="next-btn"], [data-form="submit-btn"]');
-      if (!btn) return;
-      var form = btn.closest ? btn.closest('form') : null;
-      if (!form) return;
-      if (btn.getAttribute('data-form') === 'next-btn' && !validateVisibleStep(form)) {
-        e.preventDefault();
-        e.stopPropagation();
-      }
-    }, true);
+    // Aucune interception des clics « Suivant/Précédent » : la navigation entre
+    // étapes et la validation requise associée sont entièrement pilotées par la
+    // librairie multi-step d'origine (qui active/désactive elle-même next-btn).
+    // Recâter ces clics en phase de capture bloquait la progression sur les
+    // formulaires multi-étapes (champ conditionnel révélé tardivement jugé vide).
+    // La capture du lead reste assurée par l'écouteur `submit` en phase de capture.
   }
 
   /* ------------------------------------------------------------------

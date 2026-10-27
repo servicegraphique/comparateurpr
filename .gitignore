@@ -1,6 +1,12 @@
 # Outillage de conversion — artefacts non versionnés
 conversion/.venv/
 conversion/tools/node_modules/
+# Chromium headless auto-suffisant (227 Mo : binaire + NSS/NSPR compilés +
+# SwiftShader) réservé à l'audit navigateur local, reconstituable via
+# conversion/tools/INSTALL-BROWSER.md — non versionné.
+conversion/tools/browser/
+# Captures d'audit navigateur
+conversion/shots/
 # Binaires RAR/UnRAR tiers (RARLab 7.12, https://www.rarlab.com/) — à télécharger
 # côté machine d'empaquetage ; non nécessaires à l'exécution des sites.
 conversion/tools/rar
@@ -8,6 +14,9 @@ conversion/tools/unrar
 
 # Sites autonomes générés (422 Mo décompressés) : livrés dans comparateur-local.rar
 comparateur-local/
+# ZIP mono-fichier reconstitué (164 Mo) : la version livrée dans Git est le
+# couple de parties comparateur-local.zip.part-00/01 (< 100 Mo chacune)
+comparateur-local.zip
 
 # Python
 __pycache__/

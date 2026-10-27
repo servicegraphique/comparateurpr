@@ -10,6 +10,7 @@ Sortie : comparateur-local/<slug>/{index.html,style.css,script.js,img,fonts}
 Python 3.11 + Pillow (venv conversion/.venv). Aucune autre dépendance.
 """
 import argparse
+import gzip
 import hashlib
 import html as html_mod
 import json
@@ -214,6 +215,15 @@ class Store:
         return name
 
     def _place(self, data, name, kind):
+        # Certains assets de l'export source sont livrés compressés gzip mais
+        # portent une extension non .gz (ex. placeholder SVG Webflow) : le
+        # navigateur ne sait alors pas les décoder. On décompresse une fois.
+        if not name.lower().endswith('.gz') and data[:2] == b'\x1f\x8b':
+            try:
+                data = gzip.decompress(data)
+                self.warnings.append(f'asset gzip décompressé -> {name}')
+            except Exception:
+                pass
         h = hashlib.md5(data).hexdigest()
         if h in self.by_hash:
             return self.by_hash[h]

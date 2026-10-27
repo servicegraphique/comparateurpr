@@ -17,7 +17,7 @@ Windows (invite de commandes) :
   copy /b comparateur-local.zip.part-00+comparateur-local.zip.part-01 comparateur-local.zip
   puis clic droit > Extraire tout
 
-Vérification : l'archive reconstituée fait 164 423 585 octets et contient
+Vérification : l'archive reconstituée fait 164 462 606 octets et contient
 5 374 fichiers (138 sites autonomes + le portail index.html à la racine).
 
 Alternative mono-fichier : comparateur-local.rar (18,6 Mo, compression solide),

@@ -1,10 +1,11 @@
 # RAPPORT-CONVERSION — sites autonomes `comparateur-local`
 
 > Conversion appliquée à la lettre selon **[CONVERSION-SPEC.md](CONVERSION-SPEC.md)**.
-> Date : 2026-10-27. Branche : `arena/5742c57e-comparateurpr`.
+> Date : 2026-10-27 (révision du 2026-10-27 : certification en navigateur réel, voir §4 bis).
 > Outil reproductible : [`conversion/localiser.py`](conversion/localiser.py) (Python 3.11 + Pillow,
-> aucun service externe), audits [`conversion/audit.py`](conversion/audit.py) et
-> [`conversion/audit-jsdom-batch.py`](conversion/audit-jsdom-batch.py).
+> aucun service externe), audits [`conversion/audit.py`](conversion/audit.py),
+> [`conversion/audit-jsdom-batch.py`](conversion/audit-jsdom-batch.py) et
+> [`conversion/browser-audit.py`](conversion/browser-audit.py) (Chromium headless réel).
 
 ---
 
@@ -22,8 +23,11 @@
 | Taille moyenne par site | ~3,1 Mo (CSS ~103 Ko, JS ~1 466 Ko) |
 | Audit statique (§7) | **VERT** |
 | Audit JSDOM 138 sites (errors=0, form=PASS) | **138 / 138 VERT** |
+| Audit **navigateur réel Chromium** (rendu, scroll, CSS, polices, formulaires) | **138 / 138 VERT** (détail §4 bis) |
 | `node --check` sur chaque `script.js` | **138 / 138 OK** |
 | Références d'assets cassées (HTML + CSS) | **0** |
+| Images cassées en rendu navigateur | **0** |
+| Débordement horizontal / erreur JS page / police en échec | **0 / 0 / 0** |
 | URL CDN d'affichage résiduelles | **0** |
 
 Chaque page s'ouvre en double-cliquant sur son `index.html` (schéma `file://`), sans réseau.
@@ -169,6 +173,56 @@ JSDOM** : chargement GTM impossible (tracking, §3.2), limitations canvas/iframe
 
 ---
 
+## 4 bis. Certification en navigateur réel (Chromium headless)
+
+Au-delà de JSDOM (qui ne fait ni mise en page ni peinture), chaque site a été chargé dans un
+**vrai Chromium 153 headless auto-suffisant** (build décrit dans
+[`conversion/tools/INSTALL-BROWSER.md`](conversion/tools/INSTALL-BROWSER.md), piloté par
+`puppeteer-core` en CDP, rendu logiciel SwiftShader). Le harnais
+[`conversion/tools/browser-check.js`](conversion/tools/browser-check.js) mesure, par page :
+
+- **scroll** : défilement progressif sur toute la hauteur (déclenche les animations Webflow IX2
+  et le lazy-load) ; `scrollMax`, hauteur de document ;
+- **CSS / design** : nombre de feuilles et de règles appliquées, débordement horizontal
+  (`scrollWidth > clientWidth`), sections de taille nulle, éléments restés invisibles après
+  défilement, couleur de fond et police calculées ;
+- **polices** : énumération des `@font-face`, `document.fonts.load/check` de chaque famille ;
+- **images** : images `complete` mais `naturalWidth = 0` (cassées) et requêtes locales en échec ;
+- **JavaScript** : `pageerror` (exception non capturée) ;
+- **formulaires** : absence de token nu `w-form`, présence de `form-autonome`, et pour les
+  **86 formulaires multi-étapes**, clic réel sur une réponse puis « Suivant » et vérification du
+  changement d'étape (cartes `data-go-to` comme radios standard).
+
+### Résultat final : 138 / 138 sites OK
+
+`conversion/browser-audit.jsonl` — 0 requête locale échouée, 0 image cassée, 0 débordement
+horizontal, 0 exception de page, 0 police en échec. Sur les 86 multi-étapes, 84 progressent
+automatiquement dans le test ; les 2 restants (`geolocalisation-v2`, `template-2`) ont un
+comportement **strictement identique à la page d'origine** (parité vérifiée tête-à-tête via
+`conversion/make_fidele.py`, qui rebranche les mêmes librairies sur le HTML source) : ce n'est
+donc pas une régression de conversion. Les animations IX2 (ex. grille de `suivi-de-vehicules`)
+sont opacité 0 à l'état initial puis se révèlent toutes au scroll, là encore à l'identique de
+l'original. Les seules requêtes en échec sont les hôtes externes (GTM, helloLead, ticker),
+attendues hors-ligne et non bloquantes.
+
+### Deux défauts réels détectés par cette certification et corrigés
+
+1. **Blocage de la navigation multi-étapes (86 formulaires).** Le moteur de leads local
+   interceptait en phase de capture les clics sur `[data-form="next-btn"]` et les annulait dès
+   que sa propre validation échouait — or elle considérait à tort comme requis un champ
+   conditionnel encore masqué (un `<select>` d'une étape inactive). La librairie multi-step
+   d'orchestration gérait déjà la navigation **et** la validation. Correctif dans
+   `conversion/moteur-leads.js` : suppression de cette interception des clics « Suivant » (la
+   capture du lead reste assurée par l'écouteur `submit` en phase de capture), et durcissement
+   de la fonction `visible()` pour ignorer les champs de taille nulle / `offsetParent` nul.
+2. **SVG livré compressé gzip sous extension `.svg`** (placeholder Webflow de `typ-categ`,
+   5 occurrences, rendu cassé). Correctif générique dans `conversion/localiser.py` : tout asset
+   écrit dont les deux premiers octets sont la signature gzip (`1f 8b`) et dont l'extension n'est
+   pas `.gz` est décompressé une fois dans `Store._place()`. Un seul asset du dépôt était
+   concerné ; après correctif, 0 image cassée.
+
+---
+
 ## 5. Pages écartées ou avec limitations — justification
 
 **Aucune page n'est écartée : les 138 sources sont converties.** Limitations assumées et tracées :
@@ -200,9 +254,13 @@ JSDOM** : chargement GTM impossible (tracking, §3.2), limitations canvas/iframe
 
 Outillage livré dans `conversion/` (non requis à l'exécution des sites) :
 `localiser.py` (usine idempotente), `audit.py` (audit statique §7),
-`audit-jsdom-batch.py` + `tools/audit-jsdom.js` (tests navigateur headless),
+`audit-jsdom-batch.py` + `tools/audit-jsdom.js` (tests DOM headless),
+`browser-audit.py` + `tools/browser-check.js` (certification en Chromium réel, §4 bis),
+`make_fidele.py` (contrôle de parité avec la page d'origine),
 `moteur-leads.js` (moteur spec §5.4), `vendor/` (libs tierces auto-hébergées, licences MIT/BSD
-conservées dans leurs en-têtes), `stats.json` (métriques détaillées par page).
+conservées dans leurs en-têtes), `stats.json` et `browser-audit.jsonl` (métriques détaillées
+par page). Le navigateur headless lui-même (227 Mo) est reconstituable hors Git selon
+`tools/INSTALL-BROWSER.md`.
 
 ---
 
@@ -212,4 +270,6 @@ conservées dans leurs en-têtes), `stats.json` (métriques détaillées par pag
 - [x] le portail `index.html` liste 100 % des pages (138 fiches, recherche active) ;
 - [x] `comparateur-local.rar` se décompresse et chaque page s'ouvre hors-ligne ;
 - [x] l'audit du §7 est entièrement vert (statique + JSDOM 138/138) ;
+- [x] certification en navigateur réel Chromium : rendu, scroll, CSS, polices, images et
+      formulaires multi-étapes validés sur les 138 sites (138/138, §4 bis) ;
 - [x] `RAPPORT-CONVERSION.md` est commité sur la branche de session.

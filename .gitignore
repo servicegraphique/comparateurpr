@@ -1,0 +1,14 @@
+# Outillage de conversion — artefacts non versionnés
+conversion/.venv/
+conversion/tools/node_modules/
+# Binaires RAR/UnRAR tiers (RARLab 7.12, https://www.rarlab.com/) — à télécharger
+# côté machine d'empaquetage ; non nécessaires à l'exécution des sites.
+conversion/tools/rar
+conversion/tools/unrar
+
+# Sites autonomes générés (422 Mo décompressés) : livrés dans comparateur-local.rar
+comparateur-local/
+
+# Python
+__pycache__/
+*.pyc
